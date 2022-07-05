@@ -1,0 +1,162 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .Hero-carousel .carousel-caption {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        text-align: left;
+        color: #010148;
+
+    }
+
+
+    .Hero-carousel span.carousel-control-prev-icon {
+        background-image: url(../image/left.svg);
+        background-color: rgb(223, 222, 222);
+        background-size: 50% 50%;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+        position: absolute;
+        bottom: 7px;
+        left: 10px;
+    }
+
+    .Hero-carousel span.carousel-control-prev-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .Hero-carousel .carousel-control-next-icon {
+        background-image: url(../image/right.svg);
+        background-color: rgb(223, 222, 222);
+        background-size: 50% 50%;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+        position: absolute;
+        top: 91%;
+        right: 490%;
+
+    }
+
+    .Hero-carousel .carousel-control-next-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .Hero-carousel .carousel-indicators {
+        display: none;
+    }
+
+    .Hero-carousel .carousel-caption img {
+        width: 55%;
+
+    }
+
+    .Hore-title {
+        background-image: url(../image/base1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-left: 20px;
+    }
+
+    .Hore-title h1 {
+        padding-top: 85%;
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .Hore-title h3 {
+        color: white;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .Hore-title p {
+        color: white;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .Hero-carousel .carousel-caption {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        text-align: left;
+        color: #010148;
+
+    }
+
+    /* carousel item hiehgt */
+    .Hero-carousel .d-block {
+        height: 60vh;
+        position: relative;
+    }
+
+    .Hero-carousel span.carousel-control-prev-icon {
+        background-image: url(../image/left.svg);
+        background-color: rgb(223, 222, 222);
+        background-size: 50% 50%;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .Hero-carousel span.carousel-control-prev-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .Hero-carousel .carousel-control-next-icon {
+        background-image: url(../image/right.svg);
+        background-color: rgb(223, 222, 222);
+        background-size: 50% 50%;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+        position: absolute;
+        top: 91%;
+        right: 560%;
+
+    }
+
+    .Hero-carousel .carousel-control-next-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .Hero-carousel .carousel-indicators {
+        display: none;
+    }
+
+    .Hero-carousel .carousel-caption img {
+        width: 55%;
+
+    }
+
+    .Hore-title {
+        background-image: url(../image/base1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-left: 20px;
+    }
+
+    .Hore-title h1 {
+        padding-top: 85%;
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .Hore-title h3 {
+        color: white;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .Hore-title p {
+        color: white;
+    }
+}

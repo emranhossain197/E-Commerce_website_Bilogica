@@ -1,0 +1,237 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .checkout-contant-nav {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .checkout-contant-nav h1 {
+        color: #010148;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+
+    .customer-login {
+        background-color: #FFC737;
+    }
+
+    .customer-login p {
+        color: white;
+    }
+
+    .coupon-code {
+        background-color: #5C5D5F;
+
+    }
+
+    .coupon-code p {
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .coupon-code input {
+        width: 30%;
+        padding: 7px 5px;
+
+    }
+
+    .input-code-none {
+        display: none;
+
+    }
+
+    .input-code {
+        display: block;
+
+    }
+
+    /* .input-details {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-bottom: 20px;
+    } */
+
+    .input-item-checkout label {
+        display: block;
+        color: #010148;
+        font-weight: 600;
+        padding-bottom: 7px;
+        font-size: 19px;
+    }
+
+    .input-item-checkout input.full-width {
+        width: 100%;
+    }
+
+    .input-item-checkout input {
+        width: 100%;
+        padding: 8px 7px;
+        outline: none;
+    }
+
+    .input-item-checkout textarea {
+        width: 100%;
+        outline: none;
+    }
+
+    .Payment-details h2 {
+        font-size: 1.8rem;
+        padding-top: 20px;
+    }
+
+    .Payment-details h3 {
+        font-size: 21px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dotted black;
+        padding-bottom: 8px;
+    }
+
+    .Payment-details h4 {
+        padding-bottom: 40px;
+    }
+
+    .Payment-details span {
+        font-size: 20px;
+    }
+
+    .Payment-details p {
+        text-align: justify;
+        padding-bottom: 60px;
+
+    }
+
+    .Payment-details p b {
+        color: #FFC737;
+    }
+
+    .payment-button {
+        padding: 10px 18px;
+        border: none;
+        background-color: #4FC396;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 30px;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .checkout-contant-nav {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .checkout-contant-nav h1 {
+        color: #010148;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+
+    .customer-login {
+        background-color: #FFC737;
+    }
+
+    .customer-login p {
+        color: white;
+    }
+
+    .coupon-code {
+        background-color: #5C5D5F;
+
+    }
+
+    .coupon-code p {
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .coupon-code input {
+        width: 30%;
+        padding: 7px 5px;
+
+    }
+
+    .input-code-none {
+        display: none;
+
+    }
+
+    .input-code {
+        display: block;
+
+    }
+
+    .input-details {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-bottom: 20px;
+    }
+
+    .input-item-checkout label {
+        display: block;
+        color: #010148;
+        font-weight: 600;
+        padding-bottom: 7px;
+        font-size: 19px;
+    }
+
+    .input-item-checkout input.full-width {
+        width: 140%;
+    }
+
+    .input-item-checkout input {
+        width: 90%;
+        padding: 8px 7px;
+        outline: none;
+    }
+
+    .input-item-checkout textarea {
+        outline: none;
+    }
+
+    .Payment-details h2 {
+        font-size: 1.8rem;
+    }
+
+    .Payment-details h3 {
+        font-size: 21px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dotted black;
+        padding-bottom: 8px;
+    }
+
+    .Payment-details h4 {
+        padding-bottom: 40px;
+    }
+
+    .Payment-details span {
+        font-size: 20px;
+    }
+
+    .Payment-details p {
+        text-align: justify;
+        padding-bottom: 60px;
+
+    }
+
+    .Payment-details p b {
+        color: #FFC737;
+    }
+
+    .payment-button {
+        padding: 10px 18px;
+        border: none;
+        background-color: #4FC396;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 30px;
+    }
+}

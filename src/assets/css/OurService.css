@@ -1,0 +1,67 @@
+/* all devices design  */
+.services-title {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.services-title h1 {
+    color: #010148;
+}
+
+.services-title h1 b {
+    color: #FFC737;
+}
+.services-title p{
+    width: 60%;
+    display: inline-block;
+}
+.services-item svg{
+    padding: 12px;
+    font-size: 60px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.services-item svg:hover{
+    background-color: #FFC737;
+    color: white;
+}
+.services-item h2{
+    font-size: 24px;
+    color: #5C5D5F;
+    padding-top: 10px;
+}
+.services-item p{
+    width: 90%;
+    color: #010148;
+}
+.services-item {
+    padding-bottom: 30px;
+}
+
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 600px) {
+    .services-item{
+        text-align: center;
+    }
+    .services-item p{
+        display: inline-block;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 600px) {
+    .our-service-nav {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .our-service-nav h1 {
+        color: #010148;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+}

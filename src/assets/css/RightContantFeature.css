@@ -1,0 +1,106 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+/* @media only screen and (min-width: 800px) { */
+    .right-contant-feature h1 {
+        color: #4FC396;
+        font-size: 30px;
+        padding-bottom: 30px;
+        font-weight: 700;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .right-contant-feature h1::before {
+        content: '';
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        width: 120px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .update-container-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+    }
+
+
+    .update-item-img {
+        flex-basis: 35%;
+    }
+
+    .update-item-img img {
+        width: 95%;
+    }
+
+    .update-item-title {
+        flex-basis: 65%;
+        text-align: left;
+    }
+
+    .blog-categories ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 15px 8px 15px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .blog-categories ul li:hover {
+        color: #FFC737;
+        border-bottom: 1px solid #ffc637d5;
+    }
+    .update-item-title h3{
+        font-size: 22px;
+    }
+    .update-item-title h4{
+        color: #FFC737;
+        font-size: 18px;
+    }
+
+    .update-button ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 8px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .update-active-button {
+        border-bottom: 2px solid #FFC737;
+    }
+
+    .archives ul li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 15px 8px 15px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .archives ul li:hover {
+        color: #FFC737;
+        border-bottom: 1px solid #ffc637d5;
+    }
+    .gallery-img{
+
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .gallery-img img{
+         width: 80px;
+         height: 80px;
+    }
+/* } */

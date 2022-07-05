@@ -1,0 +1,68 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+/* @media only screen and (min-width: 800px) { */
+.subscribe-contant{
+    padding-bottom: 40px;
+}
+.subscribe-left-contant{
+    /* flex-basis: 65%; */
+    background-image: url(../image/subscribe-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 7% 0px 7% 7%;
+}
+
+.subscribe-left-contant h1 {
+    color: #010148;
+    width: 80%;
+    font-size: 3rem;
+    padding-top: 10%;
+}
+
+.subscribe-right-contant {
+    /* flex-basis: 35%; */
+    background-color: #4FC396;
+    border-radius: 10px;
+    padding: 5% 0px 3% 4%;
+}
+
+.subscribe-right-contant svg {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ffffff38;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.subscribe-right-contant h1 {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.subscribe-right-contant p {
+    color: white;
+}
+
+.subscribe-right-contant input {
+    width: 85%;
+    border: none;
+    padding: 13px 18px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+.subscribe-right-contant button {
+    background-color: white;
+    border: none;
+    padding: 10px 14px;
+    font-weight: bold;
+    color: #010148;
+    border-radius: 30px;
+}
+/* } */

@@ -1,0 +1,128 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .team_list_contant {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Team_list {
+        flex-basis: 50%;
+        text-align: center;
+        background-color: #F9F9F9;
+        padding-bottom: 40px;
+        padding-top: 50px;
+        cursor: pointer;
+        position: relative;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .team_list_contant {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Team_list {
+        flex-basis: 25%;
+        text-align: center;
+        background-color: #F9F9F9;
+        padding-bottom: 40px;
+        padding-top: 50px;
+        cursor: pointer;
+        position: relative;
+    }
+
+
+}
+
+.Team-list-navigation {
+    background-image: url(../image/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.Team-list-navigation h1 {
+    padding-top: 45px;
+    color: #010148;
+    font-weight: 600;
+}
+
+.team-list-contant {
+    padding-bottom: 40px;
+}
+
+.team-list-contant h1 {
+    padding-top: 40px;
+    color: #010148;
+    font-weight: 600;
+}
+
+.team-list-contant h1 b {
+    color: #FFC737;
+}
+
+.Team_list h1 {
+    color: #010148;
+}
+
+.Team_list h1 b {
+    color: #FFC737;
+}
+
+.Team_list p {
+    width: 60%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+
+.Team_list img {
+    width: 95%;
+}
+
+.Team_list h2 {
+    color: #010148;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.Team_list h4 {
+    color: #FFC737;
+    font-size: 18px;
+}
+
+.about-hover-icon {
+    position: absolute;
+    top: 65%;
+    left: 18%;
+    display: none;
+}
+
+.about-hover-icon svg {
+    margin-right: 10px;
+    padding: 12px;
+    background-color: white;
+    font-size: 40px;
+    -webkit-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.Team_list:hover .about-hover-icon {
+    display: block;
+}
+
+.about-hover-icon svg:hover {
+    background-color: #f8b91b;
+    color: white;
+}
+
+/* } */

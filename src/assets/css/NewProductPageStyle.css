@@ -1,0 +1,196 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .Now-product-page-Nav {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    .title-button{
+        left: 33%;
+    }
+    .Now-product-page-Nav h1 {
+        color: #010148;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+
+    .new-product-title h2 {
+        padding-top: 50px;
+        color: #010148;
+    }
+
+    .new-product-title h2 b {
+        color: #FFC737;
+    }
+
+    .new-product-title p {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .new-product-contant {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0px 10px;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .new-product-item {
+        width: 200px;
+        height: 290px;
+        border: 1px solid #FFC737;
+        border-radius: 5px;
+
+    }
+
+    .new-product-item img {
+        width: 90%;
+
+    }
+
+    .new-product-item h3 {
+        font-size: 22px;
+        color: #010148;
+    }
+
+    .new-product-item h4 {
+        color: #FFC737;
+        font-size: 18px;
+    }
+
+    .PanigationBtns {
+        width: 100%;
+        /* height: 40px; */
+        gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        padding-top: 40px;
+
+
+    }
+
+    .PanigationBtns a {
+        padding: 10px 12px;
+        margin: 3px;
+        border-radius: 7px;
+        border: 1px solid #FFC737;
+        color: black;
+        font-size: 0.5rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .PanigationBtns a:hover {
+        background-color: #FFC737;
+        color: white;
+    }
+
+    .activePagBtn a {
+        background-color: #FFC737;
+    }
+
+    .panigationDisabled a {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .Now-product-page-Nav {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .Now-product-page-Nav h1 {
+        color: #010148;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+
+    .new-product-title h2 {
+        padding-top: 50px;
+        color: #010148;
+    }
+
+    .new-product-title h2 b {
+        color: #FFC737;
+    }
+
+    .new-product-title p {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .new-product-contant {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .new-product-item {
+        width: 200px;
+        height: 290px;
+        border: 1px solid #FFC737;
+        border-radius: 5px;
+
+    }
+
+    .new-product-item img {
+        width: 90%;
+
+    }
+
+    .new-product-item h3 {
+        font-size: 22px;
+        color: #010148;
+    }
+
+    .new-product-item h4 {
+        color: #FFC737;
+        font-size: 18px;
+    }
+
+    .PanigationBtns {
+        width: 80%;
+        height: 40px;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .PanigationBtns a {
+        padding: 10px 12px;
+        margin: 8px;
+        border-radius: 7px;
+        border: 1px solid #FFC737;
+        color: black;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .PanigationBtns a:hover {
+        background-color: #FFC737;
+        color: white;
+    }
+
+    .activePagBtn a {
+        background-color: #FFC737;
+    }
+
+    .panigationDisabled a {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}

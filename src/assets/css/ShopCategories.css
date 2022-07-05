@@ -1,0 +1,35 @@
+
+.shop-categorie-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.shop-categorie-title h1{
+    font-size: 30px;
+    color: #010148;
+    font-weight: bold;
+}
+.shop-categorie-title h1 b{
+    color: #FFC737;
+}
+.shop-categorie-title p{
+    width: 70%;
+    display: inline-block;
+}
+.shop-contant{
+    padding-bottom: 40px;
+}
+.shop-slider{
+    text-align: center;
+}
+.shop-slider img{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px dashed rgb(146, 146, 146);
+}
+.shop-slider h2{
+    font-size: 25px;
+    padding-top: 10px;
+}

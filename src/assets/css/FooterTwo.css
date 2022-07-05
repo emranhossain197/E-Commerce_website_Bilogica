@@ -1,0 +1,339 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 650px) {
+    .Footer-two {
+        background-color: #F5FCF9;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+    }
+
+    .instagram-img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .instagram-img img {
+        width: 70%;
+        padding-bottom: 10px;
+    }
+    .Footer-two{
+        text-align: center;
+    }
+    .footer-first-contant {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .footer-first-contant img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-first-contant p {
+        padding-bottom: 10px;
+    }
+
+    .madia-icons svg {
+        margin-right: 20px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .Footer-two ul li {
+        list-style: none;
+        color: #748076;
+        padding-bottom: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .Footer-two ul li:hover {
+        color: #0ad62f;
+        padding-left: 15px;
+    }
+
+    .Footer-two h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+
+    .Footer-two h1::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 40%;
+        width: 80px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .Footer-two p {
+        color: #748076;
+    }
+
+    .Footer-two h3 {
+        font-size: 18px;
+        color: #748076;
+    }
+
+    .Footer-two h3 svg {
+        color: #FFC737;
+    }
+
+    .footerTwo-copyright {
+        background-color: #c7c7c7;
+        
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .mathod svg {
+        padding-right: 10px;
+        font-size: 40px;
+
+    }
+
+    .footer-copyright p {
+        padding-top: 10px;
+        color: #858383;
+    }
+}
+
+@media only screen and (min-width: 651px) {
+    .Footer-two {
+        background-color: #F5FCF9;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        display: flex;
+
+    }
+
+    .footer-first-contant {
+        flex-basis: 23%;
+    }
+
+    .Links_footer {
+        flex-basis: 23%;
+    }
+
+    .Offical_footer {
+        flex-basis: 23%;
+    }
+
+    .footer_instagram {
+        flex-basis: 34%;
+    }
+
+    .instagram-img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .instagram-img img {
+        width: 70%;
+    }
+
+    .footer-first-contant {
+        padding-left: 20px;
+    }
+
+    .footer-first-contant img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-first-contant p {
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    .madia-icons svg {
+        margin-right: 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .Footer-two ul li {
+        list-style: none;
+        color: #748076;
+        padding-bottom: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-size: 1rem;
+    }
+
+    .Footer-two ul li:hover {
+        color: #0ad62f;
+        padding-left: 15px;
+    }
+
+    .Footer-two h1 {
+        font-size: 23px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+
+    .Footer-two h1::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 80px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .Footer-two p {
+        color: #748076;
+    }
+
+    .Footer-two h3 {
+        font-size: 15px;
+        color: #748076;
+    }
+
+    .Footer-two h3 svg {
+        color: #FFC737;
+    }
+
+    .footerTwo-copyright {
+        background-color: #c7c7c7;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .mathod svg {
+        padding-right: 10px;
+        font-size: 40px;
+
+    }
+
+    .footer-copyright p {
+        padding-top: 10px;
+        color: #858383;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .Footer-two {
+        background-color: #F5FCF9;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        display: flex;
+
+    }
+
+    .footer-first-contant {
+        flex-basis: 23%;
+    }
+
+    .Links_footer {
+        flex-basis: 23%;
+    }
+
+    .Offical_footer {
+        flex-basis: 23%;
+    }
+
+    .footer_instagram {
+        flex-basis: 34%;
+    }
+
+    .instagram-img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .instagram-img img {
+        width: 80%;
+    }
+
+    .footer-first-contant {
+        padding-left: 20px;
+    }
+
+    .footer-first-contant img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-first-contant p {
+        padding-bottom: 10px;
+    }
+
+    .madia-icons svg {
+        margin-right: 20px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .Footer-two ul li {
+        list-style: none;
+        color: #748076;
+        padding-bottom: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .Footer-two ul li:hover {
+        color: #0ad62f;
+        padding-left: 15px;
+    }
+
+    .Footer-two h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+
+    .Footer-two h1::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 80px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .Footer-two p {
+        color: #748076;
+    }
+
+    .Footer-two h3 {
+        font-size: 16px;
+        color: #748076;
+    }
+
+    .Footer-two h3 svg {
+        color: #FFC737;
+    }
+
+    .footerTwo-copyright {
+        background-color: #c7c7c7;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 50px;
+        align-items: center;
+    }
+
+    .mathod svg {
+        padding-right: 10px;
+        font-size: 40px;
+
+    }
+
+    .footer-copyright p {
+        padding-top: 10px;
+        color: #858383;
+    }
+}

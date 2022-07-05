@@ -1,0 +1,97 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .sales-title {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .sales-title h1 {
+        color: #010148;
+        font-weight: bold;
+    }
+
+    .sales-title h1 b {
+        color: #FFC737;
+    }
+
+    .sales-title p {
+        display: inline-block;
+        width: 55%;
+        font-weight: 400;
+        color: #010148;
+    }
+
+    .sales-title h3 {
+        font-size: 19px;
+        position: relative;
+    }
+
+    .sales-title h3::after {
+        position: absolute;
+        content: '';
+        top: 12px;
+        left: 15%;
+        width: 60px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .sales-title h3::before {
+        position: absolute;
+        content: '';
+        top: 13px;
+        right: 15%;
+        width: 60px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .sales-title {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .sales-title h1 {
+        color: #010148;
+        font-weight: bold;
+    }
+
+    .sales-title h1 b {
+        color: #FFC737;
+    }
+
+    .sales-title p {
+        display: inline-block;
+        width: 55%;
+        font-weight: 400;
+        color: #010148;
+    }
+
+    .sales-title h3 {
+        font-size: 19px;
+        position: relative;
+    }
+
+    .sales-title h3::after {
+        position: absolute;
+        content: '';
+        top: 12px;
+        left: 30%;
+        width: 60px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+
+    .sales-title h3::before {
+        position: absolute;
+        content: '';
+        top: 13px;
+        right: 30%;
+        width: 60px;
+        height: 2px;
+        background-color: #FFC737;
+    }
+}

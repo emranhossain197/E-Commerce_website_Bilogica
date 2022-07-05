@@ -1,0 +1,74 @@
+.blogs-navigation h1 {
+    color: #010148;
+    font-weight: bolder;
+    padding-top: 45px;
+}
+
+
+
+.blog-pagination-contant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.blog-item {
+    width: 250px;
+    padding-bottom: 20px;
+
+}
+
+.blog-item img {
+    width: 90%;
+    height: 220px;
+    cursor: pointer;
+}
+
+.blog-item p {
+    color: #8FB994;
+    padding-top: 8px;
+}
+
+.blog-item h2 {
+    font-size: 22px;
+}
+
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .blogs-navigation {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .title-button {
+        left: 38%;
+    }
+
+    .blog-contant {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .blogs-navigation {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .blog-contant {
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+    }
+
+
+}

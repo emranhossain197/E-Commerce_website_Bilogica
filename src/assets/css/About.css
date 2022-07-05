@@ -1,0 +1,303 @@
+.Service-title h1 {
+    color: #010148;
+}
+
+.Service-title h1 b {
+    color: #FFC737;
+}
+
+.Service-title p {
+    width: 70%;
+    display: inline-block;
+}
+
+.awesome-icons svg {
+    font-size: 45px;
+    background-color: #cacaca;
+    padding: 7px;
+    border-radius: 50%;
+    color: #303031;
+    cursor: pointer;
+}
+
+.awesome-icons svg:hover {
+    background-color: #FFC737;
+    color: white;
+}
+
+.awesome-icons h2 {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .About-navigaton {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 40vh;
+    }
+
+    .title-button {
+        left: 30%;
+    }
+
+    .service-contant {
+        padding-bottom: 40px;
+    }
+
+    .Service-title {
+        text-align: center;
+        padding: 40px 0px 30px 0px;
+    }
+
+    .Service-title p {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .awesome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .awesome-icons {
+        text-align: center;
+    }
+
+    .awesome-icons p {
+        width: 85%;
+        display: inline-block;
+    }
+
+    .about-item-contant {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .about-item {
+        cursor: pointer;
+        width: 40%;
+    }
+
+    .about-item img {
+        width: 95%;
+    }
+
+    .about-item h2 {
+        color: #010148;
+        font-weight: 500;
+        font-size: 25px;
+        padding-top: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .about-item h4 {
+        color: #FFC737;
+        font-size: 18px;
+    }
+
+    .about-item {
+        position: relative;
+    }
+
+    .about-hover-icon {
+        position: absolute;
+        top: 65%;
+        left: 18%;
+        display: none;
+    }
+
+    .about-hover-icon svg {
+        margin-right: 10px;
+        padding: 12px;
+        background-color: white;
+        font-size: 40px;
+        -webkit-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+    }
+
+    .about-item:hover .about-hover-icon {
+        display: block;
+    }
+
+    .about-hover-icon svg:hover {
+        background-color: #f8b91b;
+        color: white;
+    }
+
+    .working {
+        text-align: center;
+    }
+
+    .working img {
+        width: 70%;
+    }
+
+    .working h1 {
+        color: #010148;
+        font-weight: 600;
+        width: 90%;
+        padding-bottom: 15px;
+        display: inline-block;
+    }
+
+    .working h1 b {
+        color: #f8b91b;
+    }
+
+    .working p {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .About-navigaton {
+        background-image: url(../image/banner-img.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 40vh;
+    }
+
+    .about-food-title h1 {
+        color: #010148;
+
+    }
+
+    .about-food-title h1 b {
+        color: #FFC737;
+    }
+
+    .service-contant {
+        padding-bottom: 40px;
+    }
+
+    .Service-title {
+        text-align: center;
+        padding: 40px 0px 30px 0px;
+    }
+
+    .awesome-icons {
+        text-align: left;
+    }
+
+    .awesome-icons p {
+        width: 85%;
+    }
+
+    .about-team {
+        text-align: center;
+        background-color: #F9F9F9;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+
+    .about-team h1 {
+        color: #010148;
+    }
+
+    .about-team h1 b {
+        color: #FFC737;
+    }
+
+    .about-team p {
+        width: 60%;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .about-item-contant {
+        display: flex;
+        gap: 15px;
+    }
+
+    .about-item {
+        cursor: pointer;
+    }
+
+    .about-item img {
+        width: 95%;
+    }
+
+    .about-item h2 {
+        color: #010148;
+        font-weight: 500;
+        font-size: 25px;
+        padding-top: 10px;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .about-item h4 {
+        color: #FFC737;
+        font-size: 18px;
+    }
+
+    .about-item {
+        position: relative;
+    }
+
+    .about-hover-icon {
+        position: absolute;
+        top: 65%;
+        left: 18%;
+        display: none;
+    }
+
+    .about-hover-icon svg {
+        margin-right: 10px;
+        padding: 12px;
+        background-color: white;
+        font-size: 40px;
+        -webkit-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 0px 19px -7px rgba(0, 0, 0, 0.75);
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+    }
+
+    .about-item:hover .about-hover-icon {
+        display: block;
+    }
+
+    .about-hover-icon svg:hover {
+        background-color: #f8b91b;
+        color: white;
+    }
+
+    .working {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .working img {
+        width: 90%;
+    }
+
+    .working h1 {
+        color: #010148;
+        font-weight: 600;
+        width: 90%;
+        padding-bottom: 15px;
+    }
+
+    .working h1 b {
+        color: #f8b91b;
+    }
+
+    .working p {
+        width: 70%;
+    }
+}

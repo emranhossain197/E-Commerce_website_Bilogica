@@ -1,0 +1,168 @@
+
+@media only screen and (max-width: 799px) {
+    .banner-carousel span.carousel-control-prev-icon {
+        background-image: url(../image/left.svg);
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+    }
+
+    .banner-carousel .carousel-control-next-icon {
+        background-image: url(../image/right.svg);
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+
+    }
+    /* carousel item height */
+    .banner-carousel .d-block {
+        height: 50vh;
+    }
+    .banner-carousel .carousel-control-next-icon:hover {
+        background-color: #FFC737;
+  
+    }
+
+    .banner-carousel span.carousel-control-prev-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .banner-carousel .carousel-indicators {
+        display: none;
+    }
+
+    .banner-carousel.carousel-caption {
+        position: absolute;
+        top: 5%;
+        left: 0px;
+        text-align: center;
+        
+    }
+
+    .banner-carousel .carousel-caption h3 {
+        color: #010148;
+        font-size: 19px;
+    }
+
+    .banner-carousel .carousel-caption h1 {
+        color: #010148;
+        font-weight: bold;
+    }
+
+    .banner-carousel .carousel-caption p {
+        width: 80%;
+        color: #010148;
+        font-size: 16px;
+        display: inline-block;
+        padding-bottom: 25px;
+    }
+
+    .button {
+        border: none;
+        background-color: white;
+        padding: 4px 12px 4px 3px;
+        color: #010148;
+        font-weight: bold;
+        border-radius: 35px;
+        -webkit-box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+        -moz-box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+        box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+    }
+
+    .button svg {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #FFC737;
+        font-weight: 300;
+        color: white;
+        margin-right: 8px;
+    }
+    /* .row > *{
+        padding: 0px;
+    } */
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .banner-carousel span.carousel-control-prev-icon {
+        background-image: url(../image/left.svg);
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+    }
+    .row > *{
+        padding: 0px;
+    }
+    .banner-carousel .carousel-control-next-icon {
+        background-image: url(../image/right.svg);
+        background-color: white;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+
+    }
+
+    .banner-carousel .carousel-control-next-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .banner-carousel span.carousel-control-prev-icon:hover {
+        background-color: #FFC737;
+    }
+
+    .banner-carousel .carousel-indicators {
+        display: none;
+    }
+
+    .banner-carousel .carousel-caption {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        text-align: left;
+    }
+
+    .banner-carousel .carousel-caption h3 {
+        color: #010148;
+        font-size: 19px;
+    }
+
+    .banner-carousel .carousel-caption h1 {
+        color: #010148;
+        font-weight: bold;
+    }
+
+    .banner-carousel .carousel-caption p {
+        width: 60%;
+        color: #010148;
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    .button {
+        border: none;
+        background-color: white;
+        padding: 4px 12px 4px 3px;
+        color: #010148;
+        font-weight: bold;
+        border-radius: 35px;
+        -webkit-box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+        -moz-box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+        box-shadow: -1px 1px 6px -1px rgba(173, 173, 173, 1);
+    }
+
+    .button svg {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #FFC737;
+        font-weight: 300;
+        color: white;
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,218 @@
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 799px) {
+    .intrudece-products {
+        display: none;
+    }
+
+    .introduce {
+        padding-bottom: 40px;
+    }
+
+    .Introduce-title {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .Introduce-title h1 {
+        color: #010148;
+    }
+
+    .Introduce-title h1 b {
+        color: #FFC737;
+    }
+
+    .Introduce-title p {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .Introduce-menu {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .Introduce-menu ul li {
+        display: inline-block;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .intruduce-card {
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        border: 2px solid rgb(255, 255, 255);
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .intruduce-card:hover {
+        border: 2px solid #FFC737;
+        -webkit-box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+        -moz-box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+        box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+    }
+
+    .card-img {
+        flex-basis: 30%;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .card-title h1 {
+        font-size: 19px;
+    }
+
+    .card-title h2 {
+        font-size: 17px;
+        color: #FFC737;
+    }
+
+    .Intruduce-carousel {
+        background-image: url(../image/intrudece.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .intrudec-silder {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .intrudece-slider-item {
+        flex: 1;
+    }
+
+    .intrudece-slider-item img {
+        width: 70%;
+    }
+
+    .intrudece-slider-item h1 {
+        font-size: 20px;
+    }
+
+    .intrudece-slider-item p {
+        color: #FFC737;
+    }
+
+    .intrudece-slider-item button {
+        border: none;
+        background-color: rgb(7, 182, 7);
+        padding: 10px 8px;
+        color: white;
+        border-radius: 30px;
+    }
+}
+
+/* Small, large and mediun devices (portrait tablets and , 800px and up) */
+@media only screen and (min-width: 800px) {
+    .introduce {
+        padding-bottom: 40px;
+    }
+
+    .Introduce-title {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .Introduce-title h1 {
+        color: #010148;
+    }
+
+    .Introduce-title h1 b {
+        color: #FFC737;
+    }
+
+    .Introduce-title p {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .Introduce-menu {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .Introduce-menu ul li {
+        display: inline-block;
+        padding: 5px 25px;
+        cursor: pointer;
+    }
+    .Introduce-menu ul li.Intruduce-active-button {
+        color: white;
+        padding: 6px 18px;
+        border-radius: 30px;
+        background-color: #FFC737;
+    }
+    .intruduce-card {
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        border: 2px solid rgb(255, 255, 255);
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .intruduce-card:hover {
+        border: 2px solid #FFC737;
+        -webkit-box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+        -moz-box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+        box-shadow: 2px 0px 17px -6px rgba(231, 166, 26, 1);
+    }
+
+    .card-img {
+        flex-basis: 30%;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .card-title h1 {
+        font-size: 19px;
+    }
+
+    .card-title h2 {
+        font-size: 17px;
+        color: #FFC737;
+    }
+
+    .Intruduce-carousel {
+        background-image: url(../image/intrudece.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .intrudec-silder {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .intrudece-slider-item {
+        flex: 1;
+    }
+
+    .intrudece-slider-item img {
+        width: 70%;
+    }
+
+    .intrudece-slider-item h1 {
+        font-size: 20px;
+    }
+
+    .intrudece-slider-item p {
+        color: #FFC737;
+    }
+
+    
+
+
+}

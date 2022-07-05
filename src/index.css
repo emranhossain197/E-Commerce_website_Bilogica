@@ -1,0 +1,52 @@
+body {
+  font-family: 'Barlow', sans-serif;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.row>* {
+  padding: 0px;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(4, 185, 4);
+  padding: 8px 12px;
+  border-radius: 25px;
+  color: white;
+}
+
+.title-button {
+  background-color: white;
+  border: none;
+  padding: 10px 13px;
+  -webkit-box-shadow: -1px 2px 9px 1px rgba(214, 214, 214, 1);
+  -moz-box-shadow: -1px 2px 9px 1px rgba(214, 214, 214, 1);
+  box-shadow: -1px 2px 9px 1px rgba(214, 214, 214, 1);
+  border-radius: 35px;
+  position: absolute;
+  top: 38vh;
+  left: 43%;
+}
+
+.title-button svg {
+  background-color: #FFC737;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+a:hover {
+  color: inherit;
+}
